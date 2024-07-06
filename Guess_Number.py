@@ -3,7 +3,7 @@ player_regno = []
 while True:
     click=input("Enter 'c' to play:")
     
-    if click == "c":
+    if click.lower() == "c":
         enter_id = int(input("Enter reg id: "))
         
         if enter_id in player_regno:
